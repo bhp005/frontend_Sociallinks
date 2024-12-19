@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 9px;
+}
+body {
+    font-family:"inter",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:black
+}
+
+.card{
+  width: 400px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.image-container{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.card-title{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%); /* Dark background */
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: hsl(0, 0%, 30%); /* Slightly lighter on hover */
+}
+
+#image{
+  width: 200px; height:200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-content{
+  color: white;
+  text-align: center;
+  font-family: "inter";
+}
+
+#sub-title{
+  color: hsl(75, 94%, 57%)
+}
+
+p{
+  font-size: small;
+}
+
+.attribution{
+  position: absolute;
+  align-items: center;
+  margin-top: 750px;
+  color: white;
+}
